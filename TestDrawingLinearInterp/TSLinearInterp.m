@@ -16,6 +16,8 @@
 
 @implementation TSLinearInterp
 
+// ******************************************* рисовалка ************************************
+
 
 - (id)initWithCoder:(NSCoder *)aDecoder // (1)
 {
