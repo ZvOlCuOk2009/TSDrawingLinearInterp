@@ -26,7 +26,7 @@
         [self setMultipleTouchEnabled:NO]; // (2)
         [self setBackgroundColor:[UIColor whiteColor]];
         self.path = [UIBezierPath bezierPath];
-        [self.path setLineWidth:10.0];
+        [self.path setLineWidth:10.0]; // толщина линии
         [self.path setLineCapStyle:kCGLineCapRound];
         NSLog(@"initWithCoder");
     }
