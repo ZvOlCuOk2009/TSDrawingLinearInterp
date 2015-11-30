@@ -15,6 +15,7 @@
 		FDE37D0C1C0C37C800EA0DD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE37D0A1C0C37C800EA0DD2 /* LaunchScreen.storyboard */; };
 		FDE37D171C0C37C900EA0DD2 /* TestDrawingLinearInterpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE37D161C0C37C900EA0DD2 /* TestDrawingLinearInterpTests.m */; };
 		FDE37D221C0C37C900EA0DD2 /* TestDrawingLinearInterpUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE37D211C0C37C900EA0DD2 /* TestDrawingLinearInterpUITests.m */; };
+		FDE37D341C0C384F00EA0DD2 /* TSLinearInterp.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE37D331C0C384F00EA0DD2 /* TSLinearInterp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		FDE37D1D1C0C37C900EA0DD2 /* TestDrawingLinearInterpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDrawingLinearInterpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE37D211C0C37C900EA0DD2 /* TestDrawingLinearInterpUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDrawingLinearInterpUITests.m; sourceTree = "<group>"; };
 		FDE37D231C0C37C900EA0DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE37D321C0C384F00EA0DD2 /* TSLinearInterp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSLinearInterp.h; sourceTree = "<group>"; };
+		FDE37D331C0C384F00EA0DD2 /* TSLinearInterp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSLinearInterp.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		FDE37CFB1C0C37C800EA0DD2 /* TestDrawingLinearInterp */ = {
 			isa = PBXGroup;
 			children = (
+				FDE37D321C0C384F00EA0DD2 /* TSLinearInterp.h */,
+				FDE37D331C0C384F00EA0DD2 /* TSLinearInterp.m */,
 				FDE37CFF1C0C37C800EA0DD2 /* AppDelegate.h */,
 				FDE37D001C0C37C800EA0DD2 /* AppDelegate.m */,
 				FDE37D021C0C37C800EA0DD2 /* ViewController.h */,
@@ -276,6 +281,7 @@
 				FDE37D041C0C37C800EA0DD2 /* ViewController.m in Sources */,
 				FDE37D011C0C37C800EA0DD2 /* AppDelegate.m in Sources */,
 				FDE37CFE1C0C37C800EA0DD2 /* main.m in Sources */,
+				FDE37D341C0C384F00EA0DD2 /* TSLinearInterp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

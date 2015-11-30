@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TSLinearInterp.h"
 
 @interface ViewController : UIViewController
 
